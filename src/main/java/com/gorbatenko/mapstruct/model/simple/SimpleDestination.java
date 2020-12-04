@@ -1,10 +1,17 @@
 package com.gorbatenko.mapstruct.model.simple;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class SimpleDestination {
     private String name;
     private String description;
 
-    public SimpleDestination() {
+    /*public SimpleDestination() {
     }
 
     public SimpleDestination(String name, String description) {
@@ -26,5 +33,5 @@ public class SimpleDestination {
 
     public void setDescription(String description) {
         this.description = description;
-    }
+    }*/
 }
